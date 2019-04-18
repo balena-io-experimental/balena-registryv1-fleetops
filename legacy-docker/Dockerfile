@@ -23,6 +23,9 @@ RUN apt-get install -qqy docker-ce=17.03.2~ce-0~ubuntu-trusty
 ADD ./wrapdocker /usr/local/bin/wrapdocker
 RUN chmod +x /usr/local/bin/wrapdocker
 
+# Add the containre prepopulation script
+ADD populate.sh /usr/local/bin/populate.sh
+
 # Define additional metadata for our image.
 VOLUME /var/lib/docker
 CMD ["wrapdocker"]
