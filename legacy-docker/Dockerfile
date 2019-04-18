@@ -25,6 +25,7 @@ RUN chmod +x /usr/local/bin/wrapdocker
 
 # Add the containre prepopulation script
 ADD populate.sh /usr/local/bin/populate.sh
+RUN chmod +x /usr/local/bin/populate.sh
 
 # Define additional metadata for our image.
 VOLUME /var/lib/docker

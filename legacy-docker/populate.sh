@@ -13,8 +13,8 @@ images=(
 
 for image in "${images[@]}"; do
     docker pull "${image}"
-    docker tag "${image}" "$REGISTRYV1/${image}"
-    docker push "$REGISTRYV1/${image}"
-    docker rmi "$REGISTRYV1/${image}" "${image}"
+    docker tag "${image}" "${REGISTRYV1}/${image}"
+    docker push "${REGISTRYV1}/${image}"
+    docker rmi "${REGISTRYV1}/${image}" "${image}"
 done
 
