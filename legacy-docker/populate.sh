@@ -9,6 +9,8 @@ images=(
     "resin/resinos:1.26.1-raspberry-pi3"
     "resin/rpi-supervisor:v4.1.2_logstream"
     "resin/armv7hf-supervisor:v4.1.2_logstream"
+    "imrehg/resinhup-test:rpi-v1.10-migrator"
+    "imrehg/resinhup-test:armv7hf-v1.10-migrator"
 )
 
 for image in "${images[@]}"; do

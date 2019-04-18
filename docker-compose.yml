@@ -14,8 +14,12 @@ services:
       - 'seccomp:unconfined'
     tmpfs:
       - /sys/fs/cgroup
-    ports:
-      - "80:80"
+    # # This doesn't work on supervisor v9.14.0
+    # # Have to go to >= v9.14.4, or <=v9.11.0
+    # ports:
+    #   - "80:80"
+    # # This is only needed if `ports` above cannot be used
+    network_mode: host
 
   legacy-docker:
     build: ./legacy-docker
