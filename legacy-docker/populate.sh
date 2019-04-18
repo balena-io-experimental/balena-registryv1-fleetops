@@ -9,6 +9,9 @@ images=(
     "resin/resinos:1.26.1-raspberry-pi3"
     "resin/rpi-supervisor:v4.1.2_logstream"
     "resin/armv7hf-supervisor:v4.1.2_logstream"
+    "resin/resinhup-test:v1.2.1-raspberry-pi"
+    "resin/resinhup-test:v1.2.1-raspberry-pi2"
+    "resin/resinhup-test:v1.2.1-raspberrypi3"
     "imrehg/resinhup-test:rpi-v1.10-migrator"
     "imrehg/resinhup-test:armv7hf-v1.10-migrator"
 )
