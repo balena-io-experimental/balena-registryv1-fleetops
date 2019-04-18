@@ -1,0 +1,25 @@
+version: "2.1"
+services:
+  registry:
+    build: ./registry
+    volumes:
+      - registry-data:/data
+    environment:
+      - CONFD_BACKEND=ENV
+      - REGISTRY_STORAGE_PATH=/data
+    cap_add:
+      - SYS_RESOURCE
+      - SYS_ADMIN
+    security_opt:
+      - 'seccomp:unconfined'
+    tmpfs:
+      - /sys/fs/cgroup
+    ports:
+      - "80:80"
+
+  legacy-docker:
+    build: ./legacy-docker
+    privileged: true
+
+volumes:
+  registry-data:
