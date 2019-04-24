@@ -14,11 +14,8 @@ images=(
 
     # Host OS updater images
     "resin/resinhup-test:v2.5.0-raspberry-pi|resin/resinhup:v2.5.0-raspberry-pi"
-    "resin/resinhup-test:v2.5.0-raspberry-pi2|resin/resinhup-test:v2.5.0-raspberrypi3"
-    "resin/resinhup-test:v2.5.0-raspberrypi3|resin/resinhup-test:v2.5.0-raspberrypi3"
-    # "imrehg/resinhup-test:v2.5.0-raspberry-pi|resin/resinhup:v2.5.0-raspberry-pi"
-    # "imrehg/resinhup-test:v2.5.0-raspberry-pi2|resin/resinhup:v2.5.0-raspberry-pi2"
-    # "imrehg/resinhup-test:v2.5.0-raspberrypi3|resin/resinhup:v2.5.0-raspberrypi3"
+    "resin/resinhup-test:v2.5.0-raspberry-pi2|resin/resinhup:v2.5.0-raspberrypi3"
+    "resin/resinhup-test:v2.5.0-raspberrypi3|resin/resinhup:v2.5.0-raspberrypi3"
 
     # Legacy rce/docker migrator
     "imrehg/rpi-v1.10-migrator|resinhup/rpi-v1.10-migrator"
