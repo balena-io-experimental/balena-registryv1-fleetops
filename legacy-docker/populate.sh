@@ -14,7 +14,7 @@ images=(
 
     # Host OS updater images
     "resin/resinhup-test:v2.5.0-raspberry-pi|resin/resinhup:v2.5.0-raspberry-pi"
-    "resin/resinhup-test:v2.5.0-raspberry-pi2|resin/resinhup:v2.5.0-raspberrypi3"
+    "resin/resinhup-test:v2.5.0-raspberry-pi2|resin/resinhup:v2.5.0-raspberry-pi2"
     "resin/resinhup-test:v2.5.0-raspberrypi3|resin/resinhup:v2.5.0-raspberrypi3"
 
     # Legacy rce/docker migrator
